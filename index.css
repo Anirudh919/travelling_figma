@@ -1,0 +1,43 @@
+.nav-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+.active {
+  background-color: #4b5563;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+}
+
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-image {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  letter-spacing: 4px;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
